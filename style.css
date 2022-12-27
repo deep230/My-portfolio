@@ -1,0 +1,191 @@
+body {
+    color: grey;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin: 0;
+}
+
+/* Navbar css start */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.nav-btn {
+    display: flex;
+    margin: 0 1% 0 10%;
+}
+
+.nav-logo {
+    margin-left: 43px;
+}
+
+.nav-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    justify-items: center;
+}
+
+.btn {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav .fa-solid {
+    display: none;
+} */
+
+@media screen and (max-width: 480px) {
+    .nav-btn{
+        display: none;
+    }
+}
+    /* nav .fa-solid {
+        display: block;
+        position:absolute;
+        top:25px;
+        left:25px;
+    }
+    nav ul{
+        background-color: #62bdfc;
+        position: fixed;
+        top:0;
+        height: 100vh;
+        right: -200px;
+        padding-top: 50px;
+        transition: right .5s;
+        z-index: 2;
+    }
+} */
+
+/* Navbar css ends */
+
+/* Header css start */
+#header {
+    display: flex;
+    padding: 10px 60px;
+    background-color: black;
+    border-radius: 1.5%;
+}
+
+.head-img {
+    width: 90%;
+    border-radius: 18px;
+    /* height: 10; */
+}
+
+.head-h1 {
+    font-size: 30px;
+}
+
+.head-h2 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.head-h3 {
+    font-size: 70px;
+}
+
+.head-p1 {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        display: block;
+    }
+
+    .head-h2,
+    .head-h1,
+    .head-h3 {
+        line-height: 60px;
+        font-size: 40px;
+    }
+}
+
+/* Header css ends */
+
+/* About section css started */
+#about {
+    display: flex;
+}
+
+.about {
+    margin: 5%;
+    text-align: center;
+}
+
+.about-h1 {
+    font-size: 60px;
+}
+
+.about-h2 {
+    font-size: 30px;
+}
+
+.about-p1 {
+    font-size: 20px;
+}
+
+.about-img {
+    margin: 5%;
+}
+
+.about-icon {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 480px) {
+    #about {
+        display: block;
+    }
+}
+
+/* About section css ends */
+
+/* Footer section section css start */
+#footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.fa-solid,
+.fa-brands {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+    #footer {
+        display: block;
+    }
+}
